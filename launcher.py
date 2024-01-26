@@ -6,7 +6,7 @@ import shutil
 import subprocess
 
 try:
-    newest_version = "https://raw.githubusercontent.com/kbdevs/ai-aimbot/main/current_version.txt"
+    newest_version = "https://raw.githubusercontent.com/MysterySoap/ALTS-AI-AIMBOT/main/current_version.txt"
     req = urllib.request.Request(newest_version, headers={'Cache-Control': 'no-cache'})
     response = urllib.request.urlopen(req)
     remote_version = response.read().decode().strip()
@@ -46,7 +46,7 @@ try:
 
             print("Downloading...")
             # Download the zip file
-            url = "https://codeload.github.com/kbdevs/ai-aimbot/zip/refs/heads/main"
+            url = "https://github.com/MysterySoap/ALTS-AI-AIMBOT/archive/refs/tags/ai2.zip"
             response = urllib.request.urlopen(url)
             zip_content = response.read()
 
