@@ -46,7 +46,7 @@ try:
 
             print("Downloading...")
             # Download the zip file
-            url = "https://github.com/MysterySoap/ALTS-AI-AIMBOT/archive/refs/tags/ai2.zip"
+            url = "https://github.com/MysterySoap/ALTS-AI-AIMBOT/releases/download/ai2/ai-aimbot.rar"
             response = urllib.request.urlopen(url)
             zip_content = response.read()
 
