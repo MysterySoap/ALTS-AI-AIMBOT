@@ -1,0 +1,10 @@
+numpy
+pywin32
+opencv-python
+keyboard
+pyfiglet
+requests
+pyautogui
+pyscreeze
+pillow
+colorama
