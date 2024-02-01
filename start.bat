@@ -1,0 +1,2 @@
+python ALTS.py
+pause
